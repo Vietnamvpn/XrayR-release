@@ -257,7 +257,7 @@ show_log() {
 }
 
 install_bbr() {
-    bash <(curl -L -s https://raw.githubusercontent.com/Vietnamvpn/Linux-NetSpeed/tcp.sh)
+    bash <(curl -L -s https://raw.githubusercontent.com/Vietnamvpn/Linux-NetSpeed/main/tcp.sh)
     #if [[ $? == 0 ]]; then
     #    echo ""
     #    echo -e "${green}Cài đặt bbr thành công, vui lòng khởi động lại máy chủ${plain}"
